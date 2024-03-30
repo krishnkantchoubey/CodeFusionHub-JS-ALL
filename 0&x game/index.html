@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFusionHub - The Ultimate Productivity Assistant</title>
+
+    <link rel="icon" type="image/x-icon" href="../images/newlogo.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/master.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="/" class="logo">
+                    <img src="/images/newlogo.svg" alt="notNotion">
+                    <span>CodeFusionHub</span>
+                </a>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="/quiz">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="/todo-list">Todo List</a>
+                        </li>
+                        <li>
+                            <a href="/progress-board">Progress Board</a>
+                        </li>
+                        <li>
+                            <a href="/budget-manager">Budget Manager</a>
+                        </li>
+                        <li class="active">
+                            <a href="/0&x game/">Game</a>
+                        </li>
+                        <span class="newsletter">Join Newsletter</span>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+
+        <p class="game-info"></p>
+
+        <div class="tic-tac-toe">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+        </div>
+
+        <button class="btn">New Game</button>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="brand-name">
+                    <span>© <b>CodeFusionHub</b> krishnakant3005@gmail.com</span>
+                </div>
+                <div class="social-icons">
+                    <i  href="https://twitter.com/Krrish_2002" class="bi bi-twitter social"></i>
+                    <i href="https://www.linkedin.com/in/krishna-kant-choubey/" class="bi bi-linkedin social"></i>
+ 
+                </div>
+            </div>
+        </div>
+        <!-- Modal section hidden -->
+        <section class="modal">
+            <div class="newsletter-modal">
+                <p>Join Newsletter Now!</p>
+                <form>
+                    <input type="text" name="name" placeholder="Name" autocomplete="off">
+                    <input type="email" name="email" placeholder="Email" autocomplete="off">
+                    <input type="submit" value="Submit">
+                </form>
+                <i class="bi bi-x-lg close"></i>
+            </div>
+        </section>
+    </footer>  
+    <script src="/main.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
